@@ -12,6 +12,11 @@ body {
 
 p {
   font-size: 15px;
+  color: #34475a;
+}
+
+h1 {
+  color: #34475a;
 }
 .fixed_menu {
   position: fixed;
@@ -136,6 +141,7 @@ p {
 .text_hero h1 {
   margin-bottom: 27px;
   font-size: 50px;
+  color: white;
 }
 
 .text_white_hero {
@@ -177,6 +183,7 @@ p {
   position: relative;
   background-color: white;
   border-radius: 5px;
+  margin-bottom: 26px;
 }
 
 .middle_container_white {
@@ -216,18 +223,73 @@ p {
   height: 150px;
   display: block;
   text-align: center;
-
+  margin: auto;
 }
 
 .sectionright {
   float: left;
   width: 50%;
+  height: 300px;
+  padding: 40px;
+  color: #34475a;
+  line-height: 25px;
 }
+
 
 .standard_button {
   background-color: #ff7a59;
   border-radius: 3px;
-  padding: 20px;
+  width: 140px;
   color: white;
-  display: inline-block;
+  padding: 15px;
+  margin: auto;
+  margin-top: 26px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.middle_container_columns {
+  width: 1100px;
+  margin: auto;
+  margin-top: 3px solid black;
+}
+
+.middle_container_columns::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  background-color: white;
+  border-radius: 3px;
+  line-height: 25px;
+  text-align: center;
+  padding: 20px;
+  color: #34475a;
+}
+
+.column h1 {
+  margin-bottom: 26px;
+}
+
+.li_color {
+  color: #ff7a59;
+  float: left;
+  margin-right: 10px;
+}
+
+ul {
+  text-align: left;
+}
+
+
+.col_left {
+  margin-right: 5%;
+}
+
+.col_middle {
+  margin-right: 5%;
 }
