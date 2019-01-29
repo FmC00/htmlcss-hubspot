@@ -11,7 +11,7 @@ body {
 }
 
 p {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   color: #34475a;
 }
@@ -21,7 +21,7 @@ p {
   height: 73px;
   background-color: #f5f8fa;
   border-bottom: 1px solid #cbd6e2;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   color: #34475a;
 }
@@ -52,14 +52,57 @@ p {
 #login {
   background-color: white;
   color: #ff7a59;
+  border: 1px solid #ff7a59; 
   border-radius: 3px;
   padding: 10px;
   margin-right: 10px;
 }
+
 
 #gethub {
   background-color: #ff7a59;
   border-radius: 3px;
   padding: 10px;
   color: white;
+}
+
+.top_container {
+  width: 1100px;
+  height: 73px;
+  background-color: white;
+  margin: auto;
+}
+
+.top_container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo_container {
+  float: left;
+  width: 30%;
+  height: 73px;
+  position: relative;
+}
+
+#logo {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0,-50%);
+}
+
+.menu {
+  float: right;
+  width: 70%;
+  height: 73px;
+  line-height: 73px;
+  text-align: right;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.menu *{
+  padding-right: 40px;
 }
