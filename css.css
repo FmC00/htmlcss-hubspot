@@ -53,7 +53,6 @@ h1 {
 
 .fixed_right {
   float: right;
-  width: 300px;
   height: 73px;
   padding-right: 0;
 }
@@ -235,6 +234,9 @@ h1 {
   line-height: 25px;
 }
 
+.sectionright span {
+  padding-right: 20px;
+}
 
 .standard_button {
   background-color: #ff7a59;
@@ -269,16 +271,25 @@ h1 {
   text-align: center;
   padding: 20px;
   color: #34475a;
+  margin-bottom: 150px;
 }
 
 .column h1 {
   margin-bottom: 26px;
 }
 
+.column img {
+  height: 150px;
+}
+
 .li_color {
   color: #ff7a59;
   float: left;
   margin-right: 10px;
+}
+
+.icon_color {
+  color: #ff7a59;
 }
 
 ul {
@@ -292,4 +303,30 @@ ul {
 
 .col_middle {
   margin-right: 5%;
+}
+
+.green_section {
+  width: 100%;
+  height: 1500px;
+  background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+  position: relative;
+}
+
+.green_container_top {
+  width: 800px;
+  margin: auto;
+  padding: 40px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.green_container_top h1 {
+  margin-bottom: 26px;
+  color: white;
+  margin-top: 100px;
+  font-size: 30px;
+}
+
+.green_container_top p {
+  color: white;
 }
