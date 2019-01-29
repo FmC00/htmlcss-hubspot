@@ -11,6 +11,7 @@ i {
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  font-weight: 800;
   color: #33475b
 }
 
@@ -81,7 +82,7 @@ header {
 }
 
 .menu-bar {
-  width: 100%;
+  width: 1000px;
   height: 100%;
   margin: auto;
 }
@@ -102,7 +103,7 @@ header {
 #logo>img {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 20%;
   transform: translate(-50%,-50%);
 }
 
@@ -115,7 +116,7 @@ header {
 
 .menu *
 {
-  padding-right: 25px;
+  padding-left: 11px;
 }
 
 .menu::after {
